@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# TypeScript Todo App with Vite and Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a Todo App built using TypeScript and Vite, and styled with Tailwind CSS. The app enables users to manage tasks with features like adding and deleting tasks, providing an intuitive and responsive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Task Management**: Easily add and delete tasks with a user-friendly interface.
+- **TypeScript**: Utilizes TypeScript for static typing and enhanced code readability.
+- **Vite**: Developed with Vite for a fast and efficient development experience.
+- **Tailwind CSS**: Styled using Tailwind CSS for a sleek and responsive design.
+- **Responsive Design**: Ensures a seamless experience across various devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- [Node.js](https://nodejs.org/) (v14.0.0 or later)
+- [npm](https://www.npmjs.com/) (v7.0.0 or later)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Styling with Tailwind CSS
+
+The app is styled using Tailwind CSS, a utility-first CSS framework. You can customize the styles in the `styles` directory and leverage the power of Tailwind's classes for rapid development.
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and create a pull request. Any contributions are welcome!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Happy coding! 🚀
