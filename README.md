@@ -24,14 +24,5 @@ This project is a Todo App built using TypeScript and Vite, and styled with Tail
 
 The app is styled using Tailwind CSS, a utility-first CSS framework. You can customize the styles in the `styles` directory and leverage the power of Tailwind's classes for rapid development.
 
-## Contributing
-
-If you'd like to contribute, please fork the repository and create a pull request. Any contributions are welcome!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 Happy coding! 🚀
